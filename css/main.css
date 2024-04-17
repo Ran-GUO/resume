@@ -1799,13 +1799,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
     color: #FFFFFF;
-    font-size: 6rem;
-    line-height: 1.35;
+    font-size: 5.2rem;
+    line-height: 1.5;
     margin-top: 0;
 }
 
 .home-content__main {
-    padding-right: 300px;
+    padding-right: 220px;
     position: relative;
 }
 
