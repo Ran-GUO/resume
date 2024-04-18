@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'guor1998@163.com';
 
 
 if($_POST) {
@@ -20,8 +20,8 @@ if($_POST) {
         $error['email'] = "Please enter a valid email address.";
     }
     // Check Message
-    if (strlen($contact_message) < 15) {
-        $error['message'] = "Please enter your message. It should have at least 15 characters.";
+    if (strlen($contact_message) < 2) {
+        $error['message'] = "Please enter your message. It should have at least 2 characters.";
     }
     // Subject
     if ($subject == '') { $subject = "Contact Form Submission"; }
