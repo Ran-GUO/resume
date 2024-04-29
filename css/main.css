@@ -4137,3 +4137,19 @@ article.blog-single .blog-content {
         display: none;
     }
 }
+
+
+/*----------------------------New added------------------------*/
+.tool-container {
+  padding-left: 25%;
+  padding-right: 25%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50px);
+  grid-gap: 50px; /* 图标之间的间距 */
+  justify-content: center;
+  align-items: center;
+}
+.tool-container img {
+  width: 100%;
+  height: 100%;
+}
