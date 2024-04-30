@@ -1631,7 +1631,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav-wrap {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 11px;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: .25rem;
     position: absolute;
@@ -1663,6 +1663,59 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #af2b2b;
 }
 
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown  .dropbtn {
+  height: 72px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: inherit;
+  font-size: 18px;
+  /* padding: 14px 10px; */
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  /* margin: 0; /* Important for vertical align on mobile phones */ */
+}
+{
+	
+	 
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  /* background-color: #ddd; */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4173,3 +4226,5 @@ article.blog-single .blog-content {
   text-align: center;
   font-size: 1.2rem;
 }
+
+
